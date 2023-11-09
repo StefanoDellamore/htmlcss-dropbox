@@ -43,7 +43,7 @@ display: inline-block;
 .container-nav nav ul li a {
 display: inline-block;
 padding: 5px 10px;
-color: white;
+color: lightgray;
 text-decoration: none;
 }
 
@@ -66,6 +66,28 @@ width: 30%;
 
 .container-info-big {
 width: 70%;
+}
+
+/* header-details */
+
+li img {
+    vertical-align: middle;
+}
+
+button {
+    border: none;
+}
+
+#white > a {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+#blu > a {
+    background-color: blue;
+    color: lightgray;
+    border: none;
 }
 
 /* main */
@@ -192,14 +214,18 @@ background-color: aqua;
 border: 2px solid black;
 }
 
+/*
 .debug header .container-nav {
 background-color: orange;
 }
+*/
 
+/*
 .debug header .container-nav nav{
 background-color: red;
 border: 2px solid white;
 }
+*/
 
 .debug .container-jumbo {
 background-color: pink;
@@ -245,10 +271,11 @@ border: 2px solid white;
 min-height: 200px;
 }
 
+/*
 .debug .container-big {
 background-color: red;
-/* min-height: 133.33px;  */
 }
+*/
 
 .debug .big-square {
 background-color: aqua;

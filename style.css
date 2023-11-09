@@ -139,6 +139,29 @@ main section h2 {
     border-bottom: 2px solid lightgray;
 }
 
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-top {
+    padding: 50px 0;
+}
+
+.footer-down {
+    padding: 30px 0;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav > * {
+    width: 20%;
+}
+
 /* section-square */
 
 .square > .container-big {
@@ -203,4 +226,15 @@ main section h2 {
     background-color: firebrick;
     border: 1px solid black;
     min-height: 200px;
+}
+
+.debug .footer-nav > * {
+    background-color: lightcoral;
+    border: 2px solid white;
+    min-height: 200px;
+}
+
+.debug .container-big {
+    background-color: red;
+        /* min-height: 133.33px;  */
 }

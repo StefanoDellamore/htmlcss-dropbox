@@ -29,11 +29,14 @@ margin-bottom: 20px;
 
 header {
 margin-bottom: 80px;
+background-color: #B4D0E7;
 }
 
 .container-nav {
 display: flex;
 justify-content: space-between;
+align-items: center;
+background-color: white;
 }
 
 .container-nav nav ul li {
@@ -43,8 +46,15 @@ display: inline-block;
 .container-nav nav ul li a {
 display: inline-block;
 padding: 5px 10px;
-color: lightgray;
+color: grey;
 text-decoration: none;
+}
+
+.container-nav nav ul li a button {
+display: inline-block;
+padding: 5px 10px;
+text-decoration: none;
+border: none;
 }
 
 .container {
@@ -74,21 +84,46 @@ li img {
     vertical-align: middle;
 }
 
-button {
-    border: none;
+.container-info > .container-info-small {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#white > a {
+.container-info-small > a > button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-info > .container-info-big {
+    padding-top: 20px;
+}
+
+.white {
     background-color: white;
-    color: black;
+    color: grey;
+}
+
+.blu {
+    background-color: #0061FF;
+    color: white;
+}
+
+.container-info-small a button {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
     border: none;
 }
 
-#blu > a {
-    background-color: blue;
-    color: lightgray;
-    border: none;
+.fa-arrow-down {
+    font-size: 3em;
+    padding-top: 120px;
 }
+
+.container-info-big > img {
+    width: 100%;
+}
+
 
 /* main */
 
@@ -209,10 +244,12 @@ height: 50%;
 
 /* debug */
 
+/*
 .debug header {
 background-color: aqua;
 border: 2px solid black;
 }
+*/
 
 /*
 .debug header .container-nav {
@@ -226,27 +263,27 @@ background-color: red;
 border: 2px solid white;
 }
 */
-
+/*
 .debug .container-jumbo {
 background-color: pink;
 min-height: 300px;
 width: 100%;
 }
+*/
 
-.debug .container-info {
-background-color: brown;
-}
-
+/*
 .debug .container-info-small {
 background-color: yellow;
 border: 2px dashed red;
 }
+*/
 
+/*
 .debug .container-info-big {
 background-color: green;
 border: 2px dashed blue;
 }
-
+*/
 .debug .container-info-end {
 background-color: brown;
 }

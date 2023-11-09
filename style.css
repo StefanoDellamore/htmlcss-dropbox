@@ -146,6 +146,7 @@ main section h2 {
 
 .column-container > * {
     width: 30%;
+    border: 1px solid lightgray;
 }
 
 .column-header {
@@ -155,18 +156,17 @@ main section h2 {
 }
 
 #container-column > * {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
 
 #container-column > .column-header {
     margin-bottom: 20px;
-    border: 1px solid lightgrey;
+   
 }
 
 #container-column > .container-info-team {
     margin-bottom: 20px;
-    border: 1px solid lightgrey;
+    
 }
 .column-large {
     width: 100%;
@@ -432,6 +432,18 @@ display: flex;
 width: 20%;
 }
 
+/* footer-details */
+
+.list-footer > h5 {
+    display: inline-block;
+}
+.footer-top > .container .footer-nav .list-footer ul li {
+    display: inline-block;
+}
+
+#font {
+    font-size: 25px;
+}
 
 
 /* debug */
@@ -498,12 +510,13 @@ border: 1px solid black;
 }
 */
 
+/*
 .debug .footer-nav > * {
 background-color: lightcoral;
 border: 2px solid white;
 min-height: 200px;
 }
-
+*/
 /*
 .debug .container-big {
 background-color: red;

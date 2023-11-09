@@ -130,8 +130,8 @@ li img {
 
 /* main */
 
-main section  {
-        margin-bottom: 30px;
+main section {
+    margin-bottom: 30px;
 }
 
 main section h2 {
@@ -338,6 +338,34 @@ padding: 20px;
 
 /* container-5 */
 
+/* section-square */
+
+main section {
+    margin-bottom: 30px;
+}
+
+.square > .container-big {
+    display: flex;
+}
+
+.big-square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.container-big > .big-square {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
 .small-square > img {
     padding: 100px;
     width: 100%;
@@ -346,7 +374,6 @@ padding: 20px;
 .big-square > img, p {
     padding: 20px;
 }
-
 
 /* container-5 color */
 .green {
@@ -405,29 +432,7 @@ display: flex;
 width: 20%;
 }
 
-/* section-square */
 
-.square > .container-big {
-display: flex;
-}
-
-.big-square {
-width: calc(100% / 3);
-height: calc(100vw / 3);
-}
-
-.container-big > .big-square {
-display: flex;
-flex-wrap: wrap;
-}
-
-.small-square {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 50%;
-height: 50%;
-}
 
 /* debug */
 
@@ -471,17 +476,21 @@ background-color: green;
 border: 2px dashed blue;
 }
 */
+/*
 .debug .container-info-end {
 background-color: brown;
 }
-
+*/
+/*
 .debug .container-info-small-end {
 background-color: yellow;
 }
-
+*/
+/*
 .debug .container-info-big-end {
 background-color: green;
 }
+*/
 /*
 .debug #characteristics > * {
 background-color: firebrick;

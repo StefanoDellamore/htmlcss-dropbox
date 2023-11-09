@@ -130,68 +130,77 @@ li img {
 /* main */
 
 main section  {
-margin-bottom: 30px;
+        margin-bottom: 30px;
 }
 
 main section h2 {
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .column-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .column-container > * {
-width: 30%;
+    width: 30%;
 }
 
 .column-header {
-text-align: center;
-padding: 10px;
-border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
 }
 
 #container-column > * {
-margin-bottom: 20px;
-border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    
 }
 
+#container-column > .column-header {
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+}
+
+#container-column > .container-info-team {
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+}
 .column-large {
-width: 100%;
+    width: 100%;
 }
 
 #characteristics > * {
-margin-bottom: 20px; 
+    margin-bottom: 20px; 
 }
 
 #free-trial {
-background-color: #B4D0E7;
-padding: 30px 0;
+    background-color: #B4D0E7;
+    padding: 30px 0;
 }
 
 .container-info-end {
-display: flex;
+    display: flex;
 }
 
 .container-info-small-end {
-display: flex;
-justify-content: end;
-width: 10%;
-padding: 15px 0;
-border-top: 2px solid lightgray;
+    display: flex;
+    justify-content: end;
+    width: 10%;
+    padding: 15px 0;
+    border-top: 2px solid lightgray;
 }
 
 .container-info-small-end > * {
-padding-right: 10px;
+    padding-right: 10px;
 }
 
 .container-info-big-end {
-justify-content: center;
-width: 90%;
-padding: 15px 0;
-border-top: 2px solid lightgray;
+    justify-content: center;
+    width: 90%;
+    padding: 15px 0;
+    border-top: 2px solid lightgray;
 }
 
 #border-bottom {
@@ -204,6 +213,25 @@ border-bottom: 2px solid lightgray;
 
 .flex {
     display: flex;
+}
+
+.container-info-small-team a button {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: none;
+}
+
+.container-info-team {
+    display: flex;
+    padding: 20px;
+}
+.container-info-small-team {
+    width: 25%;
+}
+
+.container-info-big-team {
+    width: 75%;
 }
 
 .fa-user, .fa-people-group, .fa-building { 
@@ -248,6 +276,10 @@ border-bottom: 2px solid lightgray;
 
 .fa-check {
     color: #0061FF;
+}
+
+.container-info-big-team > h2 {
+padding: 20px;
 }
 
 /* footer */

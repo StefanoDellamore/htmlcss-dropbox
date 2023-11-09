@@ -68,6 +68,89 @@ header {
     width: 70%;
 }
 
+/* main */
+
+main section  {
+    margin-bottom: 30px;
+}
+
+main section h2 {
+    margin-bottom: 50px;
+}
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column-container > * {
+    width: 30%;
+}
+
+.column-header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+#container-column > * {
+    margin-bottom: 20px;
+    border: 1px solid lightgrey;
+}
+
+.column-large {
+    width: 100%;
+}
+
+#characteristics > * {
+    margin-bottom: 20px; 
+}
+
+#free-trial {
+    background-color: #B4D0E7;
+    padding: 30px 0;
+}
+
+.container-info-end {
+    display: flex;
+}
+
+.container-info-small-end {
+    display: flex;
+    justify-content: end;
+    width: 10%;
+    padding: 15px 0;
+    border-top: 2px solid lightgray;
+}
+
+.container-info-small-end > * {
+    padding-right: 10px;
+}
+
+.container-info-big-end {
+    justify-content: center;
+    width: 90%;
+    padding: 15px 0;
+    border-top: 2px solid lightgray;
+}
+
+#border-bottom {
+    border-bottom: 2px solid lightgray;
+}
+
+/* section-square */
+
+.square > .container-big {
+   display: flex;
+}
+.big-square {
+    display: flex;
+    width: calc(100% / 3);
+    background-color: aqua;
+    border: 1px solid white;
+}
+
 /* debug */
 
 .debug header {
@@ -102,4 +185,22 @@ header {
 .debug .container-info-big {
     background-color: green;
     border: 2px dashed blue;
+}
+
+.debug .container-info-end {
+    background-color: brown;
+}
+
+.debug .container-info-small-end {
+    background-color: yellow;
+}
+
+.debug .container-info-big-end {
+    background-color: green;
+}
+
+.debug #characteristics > * {
+    background-color: firebrick;
+    border: 1px solid black;
+    min-height: 200px;
 }

@@ -204,7 +204,7 @@ main section h2 {
 }
 
 #border-bottom {
-border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 /* main-details */
@@ -281,6 +281,28 @@ border-bottom: 2px solid lightgray;
 .container-info-big-team > h2 {
 padding: 20px;
 }
+
+/* container-2 */
+
+#container2 a button.white-border {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid gray;
+}
+
+.white-border {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.container-info-small > * {
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+
 
 /* footer */
 
